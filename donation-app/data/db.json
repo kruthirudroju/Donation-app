@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@demo.com",
+      "role": "admin",
+      "hash": "$2a$08$0seWx85DUURqAt2ZnRd.peaZR.gSlp5P5kfonGo3FDWcglXzUZWzi"
+    },
+    {
+      "id": 2,
+      "name": "Kruthi",
+      "email": "kruthirudroju20@gmail.com",
+      "role": "donor",
+      "hash": "$2a$08$igmeyB/Xl6mA3jV.uk3kvuTXwtP/ZcusfZ/1VxYIew0g9SmUlvwKG"
+    }
+  ],
+  "campaigns": [],
+  "donations": [],
+  "updates": [],
+  "seq": 3
+}

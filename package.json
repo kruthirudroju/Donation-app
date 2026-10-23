@@ -1,0 +1,8 @@
+{
+  "name": "online-donation-management-system",
+  "version": "1.0.0",
+  "description": "24WT-66 Web Technologies course-end project",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "bcryptjs": "^2.4.3", "express": "^4.19.2", "jsonwebtoken": "^9.0.2" }
+}

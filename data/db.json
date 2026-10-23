@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@demo.com",
+      "role": "admin",
+      "hash": "$2a$08$.Aw48eh4NMR18jTQCIaCzO3lYjpY06c0xGGmgosWlXpC6M0AxjlGe"
+    },
+    {
+      "id": 2,
+      "name": "Hope Foundation",
+      "email": "org@demo.com",
+      "role": "organization",
+      "hash": "$2a$08$pqOxbQ/o5Udbd1KxnBP8geCO0MrRxJb/q1QhTnfXw75wRz6sGDKJS"
+    },
+    {
+      "id": 3,
+      "name": "Demo Donor",
+      "email": "donor@demo.com",
+      "role": "donor",
+      "hash": "$2a$08$GVeBlPmib83YkTx5BbJu7OTomtq/zvvZS0zngiPZ4Wpxdvke8tuf2"
+    },
+    {
+      "id": 12,
+      "name": "Kruthi",
+      "email": "kruthirudroju20@gmail.com",
+      "role": "organization",
+      "hash": "$2a$08$lWeGqXTSmb23u/h.Hochm.Zl6TW8lnhmJJx7PfZT2pxEe96pLqGJa"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 4,
+      "orgId": 2,
+      "title": "Books for rural classrooms",
+      "description": "Stock 20 village school libraries with storybooks and reference material.",
+      "goal": 50000,
+      "category": "Education",
+      "status": "approved",
+      "created": "2026-10-09T14:32:47.489Z"
+    },
+    {
+      "id": 6,
+      "orgId": 2,
+      "title": "Clean water for Medak villages",
+      "description": "Install community water filters in five villages without safe drinking water.",
+      "goal": 120000,
+      "category": "Health",
+      "status": "approved",
+      "created": "2026-10-09T14:32:47.490Z"
+    },
+    {
+      "id": 8,
+      "orgId": 2,
+      "title": "Plant 5,000 trees",
+      "description": "Restore a degraded hillside with native saplings and local caretakers.",
+      "goal": 30000,
+      "category": "Environment",
+      "status": "approved",
+      "created": "2026-10-09T14:32:47.490Z"
+    },
+    {
+      "id": 10,
+      "orgId": 2,
+      "title": "Flood relief kits",
+      "description": "Food, blankets and medicines for families displaced by floods.",
+      "goal": 80000,
+      "category": "Disaster Relief",
+      "status": "approved",
+      "created": "2026-10-09T14:32:47.490Z"
+    }
+  ],
+  "donations": [
+    {
+      "id": 5,
+      "receipt": "RCPT-SEED4",
+      "campaignId": 4,
+      "donorId": 3,
+      "donorName": "Demo Donor",
+      "amount": 18500,
+      "anonymous": false,
+      "message": "Happy to help",
+      "date": "2026-10-09T14:32:47.490Z"
+    },
+    {
+      "id": 7,
+      "receipt": "RCPT-SEED6",
+      "campaignId": 6,
+      "donorId": 3,
+      "donorName": "Demo Donor",
+      "amount": 42000,
+      "anonymous": false,
+      "message": "Happy to help",
+      "date": "2026-10-09T14:32:47.490Z"
+    },
+    {
+      "id": 9,
+      "receipt": "RCPT-SEED8",
+      "campaignId": 8,
+      "donorId": 3,
+      "donorName": "Demo Donor",
+      "amount": 9000,
+      "anonymous": false,
+      "message": "Happy to help",
+      "date": "2026-10-09T14:32:47.490Z"
+    },
+    {
+      "id": 11,
+      "receipt": "RCPT-SEED10",
+      "campaignId": 10,
+      "donorId": 3,
+      "donorName": "Demo Donor",
+      "amount": 61000,
+      "anonymous": false,
+      "message": "Happy to help",
+      "date": "2026-10-09T14:32:47.490Z"
+    },
+    {
+      "id": 13,
+      "receipt": "RCPT-MV16ZGU3",
+      "campaignId": 8,
+      "donorId": 3,
+      "donorName": "Demo Donor",
+      "amount": 5000,
+      "anonymous": true,
+      "message": "Great Service",
+      "date": "2026-10-09T16:41:01.179Z"
+    }
+  ],
+  "updates": [],
+  "seq": 14
+}
